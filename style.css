@@ -32,6 +32,7 @@ body {
 }
 
 .container-one {
+  height: 300;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,19 +46,37 @@ body {
 }
 
 .big-image {
-  width: 300px;
-  height: 300px;
+  width: auto;
+  height: 500px;
   object-fit: cover;
   object-position: 50% 50%;
-  flex: 1;
+  flex: 0;
   padding: 50px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 16px 350px;
+}
+
+.box {
+  max-width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex: 1 0 auto;
 }
 
 .small-image {
   width: 200px;
   height: 200px;
   object-fit: cover;
-  object-position: 50% 50%;
+  border-radius: 20px;
 }
 
 ul {
@@ -71,10 +90,6 @@ li {
 
 a {
   text-decoration: none;
-}
-
-a:hover {
-  color: red;
 }
 
 a:visited {
