@@ -4,7 +4,7 @@ body {
   min-height: 100vh;
 }
 .header {
-  min-width: 270px;
+  min-width: 200px;
   background-color: #1F2937;
   display: flex;
   align-items: center;
@@ -34,7 +34,7 @@ body {
   display: flex;
   margin-left: auto;
   gap: 16px;
-  padding-right:20%;
+  padding-right:10%;
 }
 
 
@@ -185,7 +185,7 @@ body {
 }
 
 .container-four .left-box {
-  min-width: 180px;
+  min-width: 150px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -216,7 +216,7 @@ body {
 }
 
 .footer {
-  min-width: 275px;
+  min-width: 200px;
   height: 30px;
   background-color: #1F2937;
   color:#F9FaF8;
