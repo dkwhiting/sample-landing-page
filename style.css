@@ -12,9 +12,19 @@ body {
   padding: 20px 15%;
 }
 
-.header-logo {
-  color: #F9FaF8;
+.header-logo img{
+  object-fit: cover;
+  max-height: 75px;
+}
+
+.header-text a {
+  font-family: 'Press Start 2P', cursive;
+  color: #ff5e00 !important;
   font-size: 24px;
+  text-shadow: 2px 2px white;
+  max-height: 30px;
+  padding-left: 10px;
+  text-decoration: none !important;
 }
 
 .header-link {
@@ -24,6 +34,8 @@ body {
   margin-left: auto;
   gap: 16px;
 }
+
+.header-link
 
 .body {
   display: flex;
@@ -59,6 +71,7 @@ body {
 .container-one .left-box .text {
   color: #E5E7EB;
   font-size: 18px;
+  padding-bottom: 10px;
 }
 
 .container-one .left-box .sign-up {
@@ -108,7 +121,7 @@ body {
 }
 
 .box {
-  max-width: 200px;
+  max-width: 300px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -120,8 +133,8 @@ body {
 }
 
 .small-image {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   border-radius: 20px;
 }
@@ -130,7 +143,7 @@ body {
   display: flex;
   flex-direction: column;
   background: #E5E7EB;
-  padding: 20px;
+  padding: 75px 20px;
   align-items: center;
 }
 
@@ -141,7 +154,6 @@ body {
   font-weight: light;
   font-style: italic;
   padding-bottom: 20px;
-  text-align: justify;
 }
 
 .name {
@@ -196,11 +208,11 @@ body {
 }
 
 .footer {
-  height: 65px;
+  height: 30px;
   background-color: #1F2937;
   color:#F9FaF8;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 15px;
 }
 
 ul {
@@ -213,6 +225,7 @@ li {
 }
 
 a {
+  color: white;
   text-decoration: none;
 }
 
@@ -220,7 +233,21 @@ a:visited {
   color:#E5E7EB;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .container-four .sign-up:hover {
   background-color: #ffffff; /* Green */
   color: black;
+}
+
+.construction-container {
+  background-color: #E5E7EB;
+  text-align: center;
+  display: flex;
+  padding: 20px 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
