@@ -4,7 +4,7 @@ body {
   min-height: 100vh;
 }
 .header {
-  min-width: 300px;
+  min-width: 270px;
   background-color: #1F2937;
   display: flex;
   align-items: center;
@@ -39,6 +39,7 @@ body {
 
 
 .body {
+  min-width: 300px;
   display: flex;
   flex-direction: column;
 }
@@ -48,7 +49,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 10%;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
   gap: 50px;
   margin: 0;
   flex-wrap: wrap;
@@ -166,6 +170,7 @@ body {
 }
 
 .container-four {
+  min-width: 275px;
   display: flex;
   justify-content: center;
   padding: 100px 0;
@@ -174,13 +179,13 @@ body {
 .sign-up-box {
   background-color: #3882F6;
   display: flex;
-  padding: 40px 50px;
+  padding: 40px 40px;
   gap: 50px;
   border-radius: 20px;
 }
 
 .container-four .left-box {
-  min-width: 200px;
+  min-width: 180px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -195,7 +200,7 @@ body {
 }
 
 .container-four .sign-up {
-  min-width: 100px;
+  min-width: 70px;
   min-height: 40px;
   background-color: #3882F6;
   color: white;
@@ -211,6 +216,7 @@ body {
 }
 
 .footer {
+  min-width: 275px;
   height: 30px;
   background-color: #1F2937;
   color:#F9FaF8;
